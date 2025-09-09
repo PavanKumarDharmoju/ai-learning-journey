@@ -1,0 +1,325 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+pdm.lock
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+*.bak
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# =============================================================================
+# AI/ML SPECIFIC FILES
+# =============================================================================
+
+# Large datasets (be selective - you might want some small sample data)
+# data/
+# datasets/
+*.csv
+*.json
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Model files
+models/
+*.model
+*.joblib
+*.h5
+*.pb
+*.onnx
+*.pth
+*.pt
+*.bin
+*.safetensors
+checkpoints/
+saved_models/
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# TensorBoard logs
+logs/
+tensorboard_logs/
+tb_logs/
+
+# Experiment tracking
+experiments/
+runs/
+
+# API Keys and secrets
+.env
+.env.local
+.env.*.local
+secrets.json
+config.json
+credentials.json
+api_keys.txt
+
+# Cache directories
+.cache/
+cache/
+tmp/
+temp/
+
+# GPU specific
+*.cuda
+*.ptx
+
+# =============================================================================
+# FUTURE AI/ML DIRECTORIES TO ADD AS YOUR PROJECT GROWS
+# =============================================================================
+
+# Deep Learning Frameworks
+lightning_logs/
+
+# Hugging Face
+.huggingface/
+hub/
+
+# Weights & Biases artifacts
+artifacts/
+
+# DVC (Data Version Control)
+.dvc/
+.dvcignore
+
+# Kubernetes/Docker
+*.dockerignore
+Dockerfile.dev
+docker-compose.override.yml
+
+# Cloud storage sync
+.aws/
+.gcp/
+.azure/
+
+# Streamlit
+.streamlit/
+
+# Gradio
+gradio_cached_examples/
+
+# LangChain
+.langchain/
+
+# Vector databases
+chroma_db/
+faiss_index/
+pinecone_cache/
+
+# Fine-tuning outputs
+output/
+output_*/
+fine_tuned_models/
+
+# Evaluation results
+eval_results/
+benchmarks/
+
+# Custom project directories (add as needed)
+raw_data/
+processed_data/
+feature_store/
+model_registry/
+inference_cache/
+training_logs/
+validation_results/
