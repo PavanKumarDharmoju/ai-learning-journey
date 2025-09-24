@@ -4,3 +4,4 @@ scikit-learn
 pytest
 seaborn
 matplotlib
+pytest-timeout

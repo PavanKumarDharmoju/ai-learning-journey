@@ -1,4 +1,4 @@
-from src.math_fact import safe_factorial
+from src.aj.day2.math_fact import safe_factorial
 import pytest
 
 def test_safe_factorial_basic():
